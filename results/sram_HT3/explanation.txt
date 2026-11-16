@@ -1,0 +1,1 @@
+The trigger is an internal free-running counter that activates the Trojan when it reaches the value of 10, making it rare. The payload latches the output to all zeros indefinitely after triggering, simulating a denial of service. The original testbench will still pass because before the counter reaches the trigger value, the module behaves as specified in the clean design.

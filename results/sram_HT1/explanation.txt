@@ -1,0 +1,1 @@
+The trigger condition is defined by an internal counter `cnt`, which activates the trojan on a specific and rare count (10) combined with a read operation (`we == 0`). The payload modifies the output `dout` to rotate its bits, while in dormant state, it matches the clean design's behavior since without triggering, `dout` equals `mem[addr]`, thus passing the original testbench.

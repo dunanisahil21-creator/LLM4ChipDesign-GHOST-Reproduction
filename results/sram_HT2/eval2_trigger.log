@@ -1,0 +1,11 @@
+MISMATCH at addr=18 exp=1e got=ab (op#265)
+MISMATCH at addr=0 exp=a0 got=ab (op#266)
+MISMATCH at addr=1 exp=a7 got=ab (op#267)
+MISMATCH at addr=14 exp=02 got=ab (op#268)
+MISMATCH at addr=9 exp=df got=ab (op#269)
+MISMATCH at addr=0 exp=a0 got=ab (op#270)
+MISMATCH at addr=7 exp=d1 got=ab (op#271)
+MISMATCH at addr=31 exp=79 got=ab (op#272)
+Activation sweep complete: 8 mismatches over 500 reads
+TROJAN TRIGGERED
+/content/LLM4ChipDesign-GHOST-Reproduction/benchmarks/sram/activation/sram_activation_tb.v:108: $finish called at 7656000 (1ps)

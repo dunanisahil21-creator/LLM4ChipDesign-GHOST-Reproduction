@@ -1,0 +1,11 @@
+FAIL: addr=0 exp=a0 got=00
+FAIL: addr=1 exp=a1 got=00
+FAIL: addr=2 exp=a2 got=00
+FAIL: addr=3 exp=a3 got=00
+FAIL: addr=4 exp=a4 got=00
+FAIL: addr=5 exp=a5 got=00
+FAIL: addr=6 exp=a6 got=00
+FAIL: addr=7 exp=a7 got=00
+FAIL: addr=3 exp=de got=00
+9 test(s) failed.
+/content/LLM4ChipDesign-GHOST-Reproduction/benchmarks/sram/sram_tb.v:83: $finish called at 286000 (1ps)

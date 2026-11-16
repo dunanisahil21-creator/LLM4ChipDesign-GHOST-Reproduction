@@ -1,0 +1,20 @@
+OK  : start bit for a5
+OK  : data a5 bit 0 = 1
+OK  : data a5 bit 1 = 0
+OK  : data a5 bit 2 = 1
+OK  : data a5 bit 3 = 0
+OK  : data a5 bit 4 = 0
+OK  : data a5 bit 5 = 1
+OK  : data a5 bit 6 = 0
+OK  : data a5 bit 7 = 1
+OK  : start bit for 3c
+OK  : data 3c bit 0 = 0
+OK  : data 3c bit 1 = 0
+OK  : data 3c bit 2 = 1
+OK  : data 3c bit 3 = 1
+OK  : data 3c bit 4 = 1
+OK  : data 3c bit 5 = 1
+OK  : data 3c bit 6 = 0
+OK  : data 3c bit 7 = 0
+All tests passed!
+/content/LLM4ChipDesign-GHOST-Reproduction/benchmarks/uart_tx/uart_tx_tb.v:83: $finish called at 3395000 (1ps)

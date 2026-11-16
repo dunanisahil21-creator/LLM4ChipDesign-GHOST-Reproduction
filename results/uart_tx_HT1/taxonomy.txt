@@ -1,0 +1,1 @@
+HT1 | trigger=internal | payload=flip 4th bit of output

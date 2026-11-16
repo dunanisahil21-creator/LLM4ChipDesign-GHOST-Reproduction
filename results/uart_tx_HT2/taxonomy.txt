@@ -1,0 +1,1 @@
+HT2 | trigger=<internal> | payload=<data exfiltration over tx>

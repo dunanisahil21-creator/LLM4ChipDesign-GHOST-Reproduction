@@ -1,0 +1,3 @@
+Activation complete: 0 error(s)
+no trigger detected
+/content/LLM4ChipDesign-GHOST-Reproduction/benchmarks/uart_tx/activation/uart_tx_activation_tb.v:83: $finish called at 59215000 (1ps)

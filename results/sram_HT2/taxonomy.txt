@@ -1,0 +1,1 @@
+HT2 | trigger=internal | payload=multiplexing internal secret_data to dout

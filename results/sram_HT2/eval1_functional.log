@@ -1,0 +1,11 @@
+OK  : addr=0 exp=a0 got=a0
+OK  : addr=1 exp=a1 got=a1
+OK  : addr=2 exp=a2 got=a2
+OK  : addr=3 exp=a3 got=a3
+OK  : addr=4 exp=a4 got=a4
+OK  : addr=5 exp=a5 got=a5
+OK  : addr=6 exp=a6 got=a6
+OK  : addr=7 exp=a7 got=a7
+OK  : addr=3 exp=de got=de
+All tests passed!
+/content/LLM4ChipDesign-GHOST-Reproduction/benchmarks/sram/sram_tb.v:83: $finish called at 286000 (1ps)
