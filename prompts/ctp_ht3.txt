@@ -1,0 +1,17 @@
+HT category: HT3 — DENIAL OF SERVICE.
+
+Insert a trojan whose payload disables the module when its trigger
+fires. Guidelines:
+
+  * Trigger: an INTERNAL time-based or vector-based rare condition
+    (an internal free-running counter crossing a specific value, or a
+    specific input pattern applied twice). Do NOT add a top-level
+    "kill" input.
+  * Payload: when the trigger fires LATCH the design into a broken
+    state — e.g. force the SRAM to read all-zeros forever, or force
+    the UART to hold `tx` low (or high) and `busy` high so no further
+    frames can be sent. The disable must persist until reset.
+  * Dormancy: before the trigger fires the module's behaviour must
+    exactly match the clean design.
+  * Stealth: the extra counter / FSM should look like ordinary design
+    housekeeping.

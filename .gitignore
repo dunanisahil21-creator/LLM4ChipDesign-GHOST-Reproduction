@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.vvp
+*.vcd
+*.cdd
+build/
+.idea/
+.vscode/

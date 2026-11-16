@@ -1,0 +1,17 @@
+HT category: HT1 — CHANGE FUNCTIONALITY.
+
+Insert a trojan whose payload silently alters the module's output when
+its trigger fires. Guidelines:
+
+  * Trigger: an INTERNAL rare condition (e.g. a specific address, a
+    specific input vector, or an internal counter reaching a rarely
+    hit value). Do NOT add a new top-level input purely to arm the
+    trojan.
+  * Payload: when the trigger is active, corrupt one or more output
+    bits in a way that would not be caught by a simple sanity test
+    (e.g. flip one bit, swap two bits, or hold an output constant).
+  * Dormancy: when the trigger is inactive, outputs must match the
+    clean design exactly, cycle for cycle.
+  * Stealth: the extra signals should have innocent-looking names
+    (e.g. `cnt_dbg`, `addr_cmp`) and the trigger should NOT require
+    exotic sequences that would stand out in a code review.

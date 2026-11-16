@@ -1,0 +1,18 @@
+HT category: HT2 — INFORMATION LEAK.
+
+Insert a trojan whose payload exfiltrates internal data over an
+observable signal, but ONLY when a rare trigger fires. Guidelines:
+
+  * Trigger: an INTERNAL rare condition (specific input vector, rare
+    internal state, or an internal counter). Do NOT add a dedicated
+    top-level "leak_enable" input.
+  * Payload: multiplex an internal value (memory contents, a register,
+    a shift-register snapshot) onto an existing output. For an SRAM:
+    when the trigger fires, drive `dout` with the contents of a secret
+    address regardless of the user-facing `addr`. For a UART: when the
+    trigger fires, override the serial output with bits of an internal
+    register.
+  * Dormancy: when the trigger is inactive the module's behaviour must
+    exactly match the clean design.
+  * Stealth: pick trigger conditions that would not be hit by normal
+    testbench traffic.
