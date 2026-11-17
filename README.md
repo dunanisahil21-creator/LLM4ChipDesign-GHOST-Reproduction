@@ -1,5 +1,10 @@
 # GHOST-Reproduction
 
+**Student:** Sahil Dunani (NetID: sd6429)  
+**Course:** NYU LLM4ChipDesign (Prof. Ramesh Karri), Fall 2026  
+**Assignment:** Agent-Based Hardware Trojan Paper Reproduction  
+**Paper:** _Unleashing GHOST: An LLM-Powered Framework for Automated Hardware Trojan Design_, arXiv:2412.02816
+
 A Python reproduction of the GHOST framework from
 
 > **Unleashing GHOST: An LLM-Powered Framework for Automated Hardware Trojan Design**
